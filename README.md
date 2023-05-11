@@ -20,8 +20,8 @@ New Terminal
 ## Update Your Database
 
 ````
-flask db revision --autogenerate -m'<message>' 
-flask db upgrade head
+=> flask db revision --autogenerate -m'<message>' 
+=> flask db upgrade head
 
 You can also run "python seed.py" to seed your database
 ````
